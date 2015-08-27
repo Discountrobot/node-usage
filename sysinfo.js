@@ -8,7 +8,7 @@ module.exports = function() {
 
     var availableVersionPaths = [
       // currently 0.10.x is enough (currently look for Meteor)
-      [/v0\.10\..*/, '0.10']
+      [/v0\.12\..*/, '0.12']
     ];
 
     var platform = (process.platform == "solaris")? "sunos": process.platform;
